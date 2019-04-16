@@ -3,7 +3,7 @@ import obd
 obd.logger.setLevel(obd.logging.DEBUG)
 
 # connection = obd.OBD()
-connection = obd.OBD(portstr='\\.\\COM14', baudrate=38400, fast=False)
+connection = obd.OBD()
 
 
 '''
